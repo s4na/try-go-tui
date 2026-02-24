@@ -31,30 +31,31 @@ type model struct {
 
 var (
 	userStyle = lipgloss.NewStyle().
-			Foreground(lipgloss.Color("86")).
+			Foreground(lipgloss.Color("#8BE9FD")).
 			Bold(true)
 
 	botStyle = lipgloss.NewStyle().
-			Foreground(lipgloss.Color("213")).
+			Foreground(lipgloss.Color("#FF79C6")).
 			Bold(true)
 
 	userMsgStyle = lipgloss.NewStyle().
-			Foreground(lipgloss.Color("252"))
+			Foreground(lipgloss.Color("#F8F8F2"))
 
 	botMsgStyle = lipgloss.NewStyle().
-			Foreground(lipgloss.Color("245")).
+			Foreground(lipgloss.Color("#6272A4")).
 			Italic(true)
 
 	inputStyle = lipgloss.NewStyle().
-			Foreground(lipgloss.Color("86"))
+			Foreground(lipgloss.Color("#50FA7B")).
+			Bold(true)
 
 	titleStyle = lipgloss.NewStyle().
-			Foreground(lipgloss.Color("213")).
+			Foreground(lipgloss.Color("#BD93F9")).
 			Bold(true).
 			Padding(0, 1)
 
 	dividerStyle = lipgloss.NewStyle().
-			Foreground(lipgloss.Color("237"))
+			Foreground(lipgloss.Color("#44475A"))
 )
 
 func randomResponse() string {
